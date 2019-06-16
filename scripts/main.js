@@ -3,6 +3,30 @@ let attributes = ["images/art0.jpeg", "images/art1.jpeg","images/art2.jpeg","ima
 let num
 
 
+// HAMBURGER
+
+const hamburger = document.querySelector("#hamburger")
+const blackHamburger = document.querySelector("#blackHamburger")
+const menuHamburger = document.querySelector(".hamburgerMenu")
+
+hamburger.addEventListener(
+  "click",
+  function(){
+    menuHamburger.style.transform="translateX(200px)"
+    blackHamburger.style.opacity="1"
+  }
+)
+
+blackHamburger.addEventListener(
+  "click",
+  function(){
+    blackHamburger.style.opacity="0"
+    menuHamburger.style.transform="translateX(0px)"
+  }
+)
+
+// MOSAÏQUE
+
   setInterval (function(){
     num = Math.floor(Math.random()*pictures.length)
     pictures[num].style.opacity = 0.5
