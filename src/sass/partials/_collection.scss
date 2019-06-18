@@ -1,0 +1,51 @@
+#main{
+  .imgPresentation{
+    width : 100%;
+    margin-top : 5px;
+    margin-bottom : 100px;
+    .imgPresentation img{
+      width: 100%;
+    }
+  }
+  .sectionTitle{
+    width: 820px;
+    height: 60px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid;
+    .title{
+      font-size: 2em;
+      line-height: 20%;
+      padding-right: 20px;
+    }
+  }
+  .imagesFormat{
+    width: 500px;
+    margin-bottom: 20px;
+    .formatPortrait{
+      width: 100px;
+      border: thin solid;
+      border-radius: 10%;
+      text-align: center;
+    }
+    .formatSquare{
+      width: 100px;
+      border: thin solid;
+      border-radius: 10%;
+      text-align: center;
+    }
+    .formatAll{
+      width: 100px;
+      border: thin solid;
+      border-radius: 10%;
+      text-align: center;
+    }
+  }
+  .portrait{
+    width: 282px;
+    height: 419px;
+  }
+  .square{
+    width: 285px;
+    height: 285px;
+  }
+}
