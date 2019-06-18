@@ -5,12 +5,12 @@
 Nous devons réaliser un site web pour un client que nous devions démarcher.
 
 #### Notre équipe
-- Oscar Thiriet *Gestion de projet*
-- Naomi Talla *Design*
-- Orélia Mekelleche *Design*
-- Axel Viskovic *Dev*
-- Alban Mellinger *Dev*
-- Valentin Séjourné *Dev*
+- Oscar Thiriet - *Gestion de projet*
+- Naomi Talla - *Design*
+- Orélia Mekelleche - *Design*
+- Axel Viskovic - *Dev*
+- Alban Mellinger - *Dev*
+- Valentin Séjourné - *Dev*
 
 ## Le projet
 
