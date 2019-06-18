@@ -6,7 +6,7 @@
 .infosContainer_portrait{
   width : 70%;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .infos_portrait img{
@@ -40,7 +40,7 @@
   margin : 50px;
 }
 .txtUnivers{
-    border-right: 1px solid black;
+    border-left: 1px solid black;
     margin : 20px;
     padding-left : 20px;
     width: 70%;
@@ -53,4 +53,32 @@
 
 .img1{
   opacity: 1;
+}
+
+
+/* Bouton déroulant */
+
+#divbouton {
+	overflow: hidden;
+	height: 0;
+	margin-top: 10px;
+	color:black;
+	transition: height .4s ease;
+}
+
+.title_infos{
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  padding-right: ;
+}
+
+.text_bio{
+  width: 70%;
+}
+
+.text1_portrait{
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
