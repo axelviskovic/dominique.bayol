@@ -97,10 +97,11 @@
       <div class="formulaire">
         <div class="formulaireTxt">
           <h2>FORMULAIRE</h2>
-          <form method="post" action"#">
-            <input type="text" name="nomPrenom" placeholder="Nom et prénom">
-            <input type="text" name="e-mail" placeholder="E-mail">
-            <textarea name="message" rows="5" cols="50">Message</textarea>
+          <form action="formulaire/index.php" method="post">
+            <input type="text" placeholder="Votre email" name="toid"/>
+            <input type="text" placeholder="Sujet de votre mail" name="subject"/>
+            <textarea rows="4" cols="50" placeholder="Votre message" name="message"></textarea>
+            <input type="submit" value="Send" name="send"/>
           </form>
         </div>
       </div>
