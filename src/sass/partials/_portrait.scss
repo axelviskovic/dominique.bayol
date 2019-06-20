@@ -1,3 +1,8 @@
+
+#infosTitle_portrait{
+ font-size: 2em;
+}
+
 .infos_portrait{
   display: flex;
   justify-content: space-around;
@@ -17,7 +22,7 @@
 
 .line_decoration{
   border-bottom: solid 1px;
-  width: 550px;
+  width: 40%;
   display: flex;
   justify-content: flex-end;
 }
@@ -82,3 +87,22 @@
   justify-content: center;
   width: 100%;
 }
+
+
+@media screen and (max-width : 790px){
+   .line_decoration{
+     width: 70%;
+  
+} 
+}
+
+@media screen and (max-width : 600px){
+   .infos_portrait{
+  display: flex;
+  flex-direction: column;
+}
+   .contentUnivers{
+  display: flex;
+  flex-direction: column;
+}
+} 
