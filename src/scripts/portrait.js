@@ -11,6 +11,6 @@ function hideShow(e){    //fonction pour affichez/masquez une div
 
 let a = document.querySelectorAll("[data-toShow]"),
 	x = 0,
-	l = a.length;
+	l = a.length
 
 for (; x<l; x++) document.addEventListener ? a[x].addEventListener("click", hideShow, false) : a[x].attachEvent("onclick", hideShow);

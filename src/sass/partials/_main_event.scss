@@ -7,7 +7,7 @@
 .event_tocome{
   height: 230px;
   width: 70%;
-  background: white
+  background: white;
 }
 
 body{
@@ -21,7 +21,7 @@ footer{
 }
 
 html, body {
-  height : 100%;
+  height: 100%;
 }
 
 .event_title{
@@ -37,19 +37,18 @@ html, body {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-
 }
 
 .button_event{
-width : 130px;
-height : 50px;
-border-radius: 25%;
-border : 1px solid grey;
-text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 25px;
+  width : 130px;
+  height : 50px;
+  border-radius: 25%;
+  border : 1px solid grey;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
 }
 
 div.left_place{
@@ -68,8 +67,4 @@ div.left_place{
 .past_event{
   margin-right: 8px;
   padding-top: 15px;
-}
-
-.site-contain{
-  flex: 1;
 }
