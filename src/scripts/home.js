@@ -1,5 +1,5 @@
 let pictures = document.querySelectorAll('.mosaique img')
-let attributes = ["dist/res/images/art0.jpeg", "dist/res/images/art1.jpeg","dist/res/images/art2.jpeg","dist/res/images/art3.jpeg","dist/res/images/art4.jpeg"]
+let attributes = ["dist/res/images/art0.jpg", "dist/res/images/art1.jpg","dist/res/images/art2.jpg","dist/res/images/art3.jpg","dist/res/images/art4.jpg"]
 let num
 
 
