@@ -16,11 +16,12 @@
   "dependencies": {
     "gulp-imports": "0.0.3",
     "gulp-minify": "^3.1.0",
-    "gulp-sass": "^4.0.2",
     "serve-handler": "^5.0.8"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1"
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
   }
 }
