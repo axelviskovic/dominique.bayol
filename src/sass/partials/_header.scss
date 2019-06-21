@@ -6,7 +6,7 @@
   background-color: #fae1a2;
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
+  flex-flow: row nowrap;
   align-items: center;
 }
 
