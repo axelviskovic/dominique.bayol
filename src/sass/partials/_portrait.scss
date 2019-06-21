@@ -27,9 +27,6 @@
   justify-content: flex-end;
 }
 
-.containerUnivers{
-}
-
 .contentUnivers{
   width : 70%;
   margin: 0 auto;
@@ -92,19 +89,20 @@
 @media screen and (max-width : 790px){
    .line_decoration{
      width: 70%;
-  
-} 
+  }
 }
 
 @media screen and (max-width : 600px){
    .infos_portrait{
-  display: flex;
-  flex-direction: column;
-}
+     display: flex;
+     flex-direction: column;
+   }
    .contentUnivers{
-  display: flex;
-  flex-direction: column;
+     display: flex;
+     flex-direction: column;
+   }
 }
+<<<<<<< HEAD
   .txtUnivers{
     border-left: none;
 }
@@ -112,3 +110,5 @@
     border-left: none;
 }
 } 
+=======
+>>>>>>> 11f015010e3ee6a22473d570ef1e93ca5605b391
