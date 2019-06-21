@@ -1,6 +1,7 @@
 #main{
   .imgPresentation{
     width : 100%;
+    margin: 0;
     margin-bottom : 100px;
     .imgPresentation img{
       width: 100%;
@@ -48,21 +49,3 @@
     height: 285px;
   }
 }
-
-// @media screen and (max-width : 960px){
-//
-//   .collection{
-//     width: 100%;
-//     display: flex;
-//   	flex-direction: column;
-//   	align-items: center;
-//     margin-bottom: 30px;
-//   }
-//
-//   .imagesFormat{
-//     height: 100%;
-//     display: flex;
-//   	flex-flow: column nowrap;
-//   	align-items: center;
-//   }
-// }
