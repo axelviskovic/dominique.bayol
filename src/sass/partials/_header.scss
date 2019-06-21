@@ -18,6 +18,7 @@
 #headerNavbar{
   display: flex;
   list-style: none;
+  justify-content: center;
 }
 
 #headerNavbar a{
@@ -84,6 +85,16 @@
   transition: all .3s;
 }
 
+#header a{
+  display: flex;
+  justify-content: center;
+}
+
+#headerLogo{
+  width: 40%;
+  height: 10%;
+}
+
 /* Responsive */
 
 @media screen and (max-width : 880px){
@@ -101,6 +112,7 @@
     opacity: 1;
   }
 }
+
 
 @media screen and (max-width : 730px){
 

@@ -68,3 +68,16 @@ div.left_place{
   margin-right: 8px;
   padding-top: 15px;
 }
+
+@media screen and (max-width : 730px){
+  #divbouton{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width : 720px){
+  #divbouton{
+    display: flex;
+    flex-direction: column;
+  }
+}
