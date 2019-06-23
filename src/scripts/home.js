@@ -29,7 +29,7 @@ blackHamburger.addEventListener(
 
   setInterval (function(){
     num = Math.floor(Math.random()*pictures.length)
-    pictures[num].style.opacity = 0.5
+    pictures[num].setAttribute(opacity, 0,33);
       pictures[num].setAttribute('src', attributes[Math.floor(Math.random()*attributes.length)]);
     apparition(num)
   },
