@@ -1,6 +1,6 @@
 let pictures = document.querySelectorAll('.mosaique img')
 let attributes = ["dist/res/images/art0.jpg", "dist/res/images/art1.jpg","dist/res/images/art2.jpg","dist/res/images/art3.jpg","dist/res/images/art4.jpg"]
-let num
+let num = ""
 
 
 // HAMBURGER
@@ -29,7 +29,7 @@ blackHamburger.addEventListener(
 
   setInterval (function(){
     num = Math.floor(Math.random()*pictures.length)
-    pictures[num].setAttribute("opacity", 0,33);
+    pictures[num].style.opacity = "0.33"
       pictures[num].setAttribute('src', attributes[Math.floor(Math.random()*attributes.length)]);
     apparition(num)
   },
@@ -37,5 +37,5 @@ blackHamburger.addEventListener(
 
 function apparition(nombre){
 setTimeout(function(){
-  pictures[nombre].style.opacity =1
+  pictures[nombre].style.opacity = "1"
 },2000)}

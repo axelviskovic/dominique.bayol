@@ -205,3 +205,10 @@ footer{
   color : grey;
 
 }
+
+@media screen and (max-width : 400px){
+  .infosContainer{
+    display: flex;
+    flex-direction: column;
+  }
+}
