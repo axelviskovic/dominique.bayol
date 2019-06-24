@@ -1,7 +1,7 @@
 main{
   color: black;
-
 }
+
 #infosTitle_portrait{
  font-size: 2em;
 }
@@ -19,7 +19,6 @@ main{
 
 .infos_portrait img{
   width : 25%;
-  height: 25%;
   margin : 50px;
 }
 
@@ -101,6 +100,11 @@ main{
   .line_decoration{
     width: 70%;
   }
+
+  .infos_portrait img{
+    width : 35%;
+    margin : 50px;
+  }
 }
 
 @media screen and (max-width : 600px){
@@ -108,6 +112,7 @@ main{
     display: flex;
     flex-direction: column;
   }
+
   .contentUnivers{
     display: flex;
     flex-direction: column;
@@ -117,6 +122,32 @@ main{
   }
   .txtInfos{
     border-left: none;
+  }
+  .infos_portrait img{
+    width : 35%;
+    margin : 50px;
+  }
+}
+
+@media screen and (max-width : 400px){
+  .infos_portrait{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contentUnivers{
+    display: flex;
+    flex-direction: column;
+  }
+  .txtUnivers{
+    border-left: none;
+  }
+  .txtInfos{
+    border-left: none;
+  }
+  .infos_portrait img{
+    width : 35%;
+    margin : 50px;
   }
 }
 
