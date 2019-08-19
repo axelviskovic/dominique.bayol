@@ -16,6 +16,7 @@
   "dependencies": {
     "gulp-imports": "0.0.3",
     "gulp-minify": "^3.1.0",
+    "jquery": "^3.4.1",
     "serve-handler": "^5.0.8"
   },
   "devDependencies": {
