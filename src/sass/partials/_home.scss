@@ -201,4 +201,25 @@ footer{
     display: flex;
     flex-direction: column;
   }
+  .mosaique_div{
+    width: 50%;
+    height: 50%;
+  }
+  .img_mosa{
+    width: 50%;
+    height: 50%;
+  }
+  .mosaique{
+    width: 50%;
+    height: 50%;
+  }
+  div.mosaique img {
+    width: 100px;
+    height: 100px;
+    margin : 25px;
+  }
+  a.linkButtons{
+    top: 205px;
+    left: 75px;
+  }
 }
