@@ -196,30 +196,99 @@ footer{
 
 }
 
-@media screen and (max-width : 600px){
-  .infosContainer{
-    display: flex;
-    flex-direction: column;
+.space{
+  height: 250px;
+}
+.responsive_img{
+  height: 0px;
+  visibility: hidden;
+}
+
+@media all and (min-width: 250px) and (max-width: 800px){
+
+  html{
+    width: 100%;
+    height: 100%;
   }
-  .mosaique_div{
-    width: 50%;
-    height: 50%;
+
+  .infosContainer {
+      width: 100%;
+      margin: 0 auto;
+      padding-bottom: 100px;
+      display: flex;
+    }
+
+  div.color {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
   }
-  .img_mosa{
-    width: 50%;
-    height: 50%;
-  }
-  .mosaique{
-    width: 50%;
-    height: 50%;
-  }
-  div.mosaique img {
-    width: 100px;
-    height: 100px;
-    margin : 25px;
-  }
-  a.linkButtons{
-    top: 205px;
-    left: 75px;
-  }
+ .responsive_img{
+   visibility: visible;
+   width: 100%;
+   height: auto;
+ }
+#block{
+}
+
+ div.infos{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ div.txtInfos{
+   width: 50%;
+   border-left: none;
+ }
+
+ .infos Img{
+   width: 40%;
+  height: auto;
+ }
+
+ div.mosaique{
+   visibility: hidden;
+   width: 0px;
+   height: auto;
+ }
+
+ div.mosaique img{
+   visibility: hidden;
+   width: 0px;
+   height: auto;
+ }
+
+ div.transparence{
+   visibility: hidden;
+   width: 0px;
+   height: auto;
+ }
+ div.mosaique:hover div.transparence{
+   visibility: hidden;
+   width: 0px;
+   height: auto;
+ }
+
+ a.linkButtons{
+   visibility: hidden;
+   width: 0px;
+   height: auto;
+ }
+
+ div.mosaique:hover a{
+   visibility: hidden;
+   width: 0px;
+   height: auto;
+ }
+ div.mosaique:hover a:hover{
+   visibility: hidden;
+   width: 0px;
+   height: auto;
+
+ }
+ div.mosaique_div{
+   visibility: hidden;
+   width: 0px;
+   height: auto;
+ }
 }
