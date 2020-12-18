@@ -14,3 +14,17 @@ let a = document.querySelectorAll("[data-toShow]"),
 	l = a.length
 
 for (; x<l; x++) document.addEventListener ? a[x].addEventListener("click", hideShow, false) : a[x].attachEvent("onclick", hideShow);
+
+
+///slider Dessin
+
+let current = 0,
+    slides = document.getElementsByClassName("img-sketch");
+
+setInterval(function() {
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.opacity = 0;
+  }
+  current = (current != slides.length - 1) ? current + 1 : 0;
+  slides[current].style.opacity = 1;
+}, 3000);

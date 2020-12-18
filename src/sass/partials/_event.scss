@@ -5,7 +5,7 @@
 }
 
 .event_tocome{
-  height: 230px;
+  margin: 6px;
   width: 70%;
   background: white;
 }
@@ -25,6 +25,10 @@ html, body {
 
 .event_title{
   text-align: center;
+}
+
+footer{
+  margin-top: 208px;
 }
 
 #divbouton{
@@ -51,9 +55,17 @@ html, body {
 }
 
 div.left_place{
-  width: 30%;
+  width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+}
+
+.event_tocome>p{
+  text-align: center;
+}
+
+.text_bio p {
+  text-align: center;
 }
 
 .event_center{
@@ -68,17 +80,53 @@ div.left_place{
   padding-top: 15px;
 }
 
-@media screen and (max-width : 730px){
+.event_center img{
+  width: 100%;
+}
+
+.map-responsive {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  
+  .map-responsive iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
+@media screen and (max-width : 1024px){
+  
+  footer{
+    margin-top: 238px;
+  }
+
   #divbouton{
     width: 100%;
   }
 
+  iframe{
+    height: 100%;
+  }
+
   .event_center{
     flex-direction: column;
+    width: 100%;
+    height: 650px;
   }
+  .event_center img {
+    width: 100%;
+    height: 320px;
+}
 }
 
-@media screen and (max-width : 720px){
+
+
+@media screen and (max-width : 1024px){
   #divbouton{
     display: flex;
     flex-direction: column;

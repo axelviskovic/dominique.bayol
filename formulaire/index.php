@@ -40,8 +40,7 @@
       echo '<p id="para">'.$error.'</p>';
       }
       else {
-      echo '<p id="para">Message sent!</p>';
-      }
+        header('Location: ../index.html');      }
   }
   else {
     ?>
