@@ -10,7 +10,6 @@ Nous devons réaliser un site web pour un client que nous devions démarcher.
 - Orélia Mekelleche - *Design*
 - Axel Viskovic - *Dev*
 - Alban Mellinger - *Dev*
-- Valentin Séjourné - *Dev*
 
 ## Le projet
 
